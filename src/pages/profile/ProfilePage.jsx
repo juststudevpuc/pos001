@@ -1,0 +1,12 @@
+import React from 'react'
+import MasterLayout from '../../components/layout/MasterLayout'
+
+const ProfilePage = () => {
+  return (
+    <div>
+        <h1>profile</h1>
+    </div>
+  )
+}
+
+export default ProfilePage
