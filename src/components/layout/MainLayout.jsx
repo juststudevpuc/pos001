@@ -11,7 +11,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.png";
 import { request } from "@/utils/request/request";
 import { setToken } from "@/store/tokenSlice";
 import { logout } from "@/store/userSlice";

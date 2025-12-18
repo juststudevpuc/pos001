@@ -9,7 +9,7 @@ import {
 } from "../ui/table";
 import { useSelector } from "react-redux";
 import { Badge } from "../ui/badge";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo3.png";
 
 const InvoiceCard = forwardRef((props, ref) => {
   const cart = useSelector((state) => state.cart);
