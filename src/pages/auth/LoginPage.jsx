@@ -39,7 +39,7 @@ export default function LoginPage() {
       if (res) {
         dispatch(setUser(res?.user));
         dispatch(setToken(res?.token));
-        navigate("/");
+        navigate("/admin", { replace: true });
       }
     } catch (error) {
       console.error(error);

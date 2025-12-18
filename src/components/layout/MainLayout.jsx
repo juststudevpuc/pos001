@@ -19,42 +19,41 @@ import { logout } from "@/store/userSlice";
 const Sidebar = ({ isOpen, setIsOpen, setIsOpenDesktop, isOpenDesktop }) => {
   const nav_item = [
     {
-      to: "/dashboard",
+      to: "/admin/dashboard",
       label: "Dashboard",
       icon: <ChartBar />,
     },
     {
-      to: "/brand",
+      to: "/admin/brand",
       label: "Brand",
       icon: <User />,
     },
     {
-      to: "/product",
+      to: "/admin/product",
       label: "Product",
       icon: <Box />,
     },
     {
-      to: "/category",
+      to: "/admin/category",
       label: "Category",
       icon: <Box />,
     },
     {
-      to: "/pos",
+      to: "/admin/pos",
       label: "Pos",
       icon: <Receipt />,
     },
     {
-      to: "/supplier",
+      to: "/admin/supplier",
       label: "Supplier",
       icon: <Receipt />,
     },
     {
-      to: "/purchase",
+      to: "/admin/purchase",
       label: "Purchase",
       icon: <Receipt />,
     },
   ];
-
   return (
     <div>
       {/* Desktop */}

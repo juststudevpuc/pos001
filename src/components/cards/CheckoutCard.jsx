@@ -68,7 +68,7 @@ export default function CheckoutCard({ data }) {
     }
   };
   const onPrint = useReactToPrint({
-    content: () => ref.current,
+    contentRef: ref, // ✅ Correct for v3+
   });
   return (
     <div className="p-2 bg-gray-100 rounded-xl flex  flex-col gap-2">
@@ -115,7 +115,7 @@ export default function CheckoutCard({ data }) {
         placeholder="remark"
       />
       <div className="flex justify-end">
-        <Button onClick={onPrint}>Print</Button>
+        <Button className="flex mr-2" onClick={onPrint}>Print</Button>
         <Button onClick={onCheckout}>Checkout</Button>
       </div>
       <div className="hidden">

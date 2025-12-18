@@ -204,6 +204,7 @@ import PosPage from "./pages/admin/PosPage";
 import SupplierPage from "./pages/admin/SupplierPage";
 import PurchasePage from "./pages/admin/PurchasePage";
 import DashboardPage from "./pages/admin/DashboardPage";
+import LandingPage from "./pages/admin/LandingPage";
 
 const App = () => {
   return (
@@ -216,16 +217,17 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/profile" element={<ProfilePage />}/>
           </Route> */}
-          {/* auth */}
+          <Route path="/" element={<LandingPage />} />
+          {/* Auth Routes */}
           <Route path="auth" element={<AuthLayout />}>
             <Route path="login" element={<LoginPage />} />
             <Route path="register" element={<RegisterPage />} />
             <Route path="*" element={<NotFound />} />
           </Route>
           {/* main */}
-          <Route path="/" element={<MainLayout />}>
-            <Route index element={<DashboardPage />} />{" "}
-            {/* This renders at "/" */}
+         {/* Main Admin Routes */}
+          <Route path="/admin" element={<MainLayout />}>
+            <Route index element={<DashboardPage />} />
             <Route path="dashboard" element={<DashboardPage />} />
             <Route path="brand" element={<BrandPage />} />
             <Route path="product" element={<ProductAdminPage />} />
