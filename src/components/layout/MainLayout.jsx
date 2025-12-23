@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { Box, ChartBar, Home, Menu, Receipt, User, X } from "lucide-react";
+import { Box, Car, CarFront, ChartBar, ChartBarStacked, Home, Menu, Receipt, Store, User, UserPen, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
@@ -26,27 +26,27 @@ const Sidebar = ({ isOpen, setIsOpen, setIsOpenDesktop, isOpenDesktop }) => {
     {
       to: "/admin/brand",
       label: "Brand",
-      icon: <User />,
+      icon: <Car />,
     },
     {
       to: "/admin/product",
       label: "Product",
-      icon: <Box />,
+      icon: <CarFront />,
     },
     {
       to: "/admin/category",
       label: "Category",
-      icon: <Box />,
+      icon: <ChartBarStacked />,
     },
     {
       to: "/admin/pos",
       label: "Pos",
-      icon: <Receipt />,
+      icon: <Store />,
     },
     {
       to: "/admin/supplier",
       label: "Supplier",
-      icon: <Receipt />,
+      icon: <UserPen />,
     },
     {
       to: "/admin/purchase",
