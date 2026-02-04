@@ -15,3 +15,5 @@ Responsive UI: Optimized for desktop and tablet use for on-the-floor retail staf
 Frontend Repository: React + Vite source code.
 
 https://github.com/juststudevpuc/pos_back.git: Laravel API and Database migrations , source code.
+
+admin : qqq@gmail.com pw:123
