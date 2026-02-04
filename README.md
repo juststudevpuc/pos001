@@ -1,14 +1,16 @@
-# React + Vite
+📺 Project Overview
+This system allows shop owners to manage their daily sales, track transactions, and view business performance through a clean, intuitive dashboard.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Core Features
+Smart Checkout: Add products to a cart, process payments, and generate instant digital receipts.
 
-Currently, two official plugins are available:
+Sales Dashboard: A central hub to monitor total revenue and transaction history.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Data Management: Full CRUD (Create, Read, Update, Delete) for inventory and sales records.
 
-## Expanding the ESLint configuration
+Responsive UI: Optimized for desktop and tablet use for on-the-floor retail staff.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 Project Structure
+Frontend Repository: React + Vite source code.
 
-for Backend is Pos_back in my pin
+https://github.com/juststudevpuc/pos_back.git: Laravel API and Database migrations , source code.
