@@ -11,6 +11,7 @@ Data Management: Full CRUD (Create, Read, Update, Delete) for inventory and sale
 Responsive UI: Optimized for desktop and tablet use for on-the-floor retail staff.
 
 📂 Project Structure
+
 Frontend Repository: React + Vite source code.
 
 https://github.com/juststudevpuc/pos_back.git: Laravel API and Database migrations , source code.
